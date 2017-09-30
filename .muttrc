@@ -208,9 +208,9 @@ macro index gs "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to 'Sent Mail'"
 macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
 
 # Easy Switching to other folders
-macro index go "<change-folder>=Odoo<enter>" "Go to Odoo mail"
-macro index gf "<change-folder>=Facturen<enter>" "Go to Facturen mail"
-macro index gl "<change-folder>=LinkedIn<enter>" "Go to Facturen mail"
+#macro index go "<change-folder>=Odoo<enter>" "Go to Odoo mail"
+#macro index gf "<change-folder>=Facturen<enter>" "Go to Facturen mail"
+#macro index gl "<change-folder>=LinkedIn<enter>" "Go to Facturen mail"
 
 # Support navigation with respect to the current message like done in vim
 bind generic z  noop
