@@ -78,7 +78,8 @@ set record = "imaps://imap.gmail.com:993/[Gmail]/Sent Mail"
 #set tmpdir="/home/mark/.mutt/tmp"
 
 # Explicitly specify the mailboxes to display in the sidebar
-mailboxes imaps://imap.gmail.com:993/INBOX imaps://imap.gmail.com:993/advise2017 imaps://imap.gmail.com:993/avmf imaps://imap.gmail.com:993/chair2017 imaps://imap.gmail.com:993/dbtest imaps://imap.gmail.com:993/kanonizo imaps://imap.gmail.com:993/papers imaps://imap.gmail.com:993/redecheck imaps://imap.gmail.com:993/research imaps://imap.gmail.com:993/research2017 imaps://imap.gmail.com:993/reviews2017 "imaps://imap.gmail.com:993/[Gmail]/Drafts" "imaps://imap.gmail.com:993/[Gmail]/Starred" "imaps://imap.gmail.com:993/[Gmail]/Trash" "imaps://imap.gmail.com:993/[Gmail]/All Mail" "imaps://imap.gmail.com:993/[Gmail]/Sent Mail"
+mailboxes imaps://imap.gmail.com:993/INBOX imaps://imap.gmail.com:993/OCA imaps://imap.gmail.com:993/Odoo imaps://imap.gmail.com:993/WHM imaps://imap.gmail.com:993/West imaps://imap.gmail.com:993/Rockefeller imaps://imap.gmail.com:993/Debian imaps://imap.gmail.com:993/Linux 
+#imaps://imap.gmail.com:993/research imaps://imap.gmail.com:993/research2017 imaps://imap.gmail.com:993/reviews2017 "imaps://imap.gmail.com:993/[Gmail]/Drafts" "imaps://imap.gmail.com:993/[Gmail]/Starred" "imaps://imap.gmail.com:993/[Gmail]/Trash" "imaps://imap.gmail.com:993/[Gmail]/All Mail" "imaps://imap.gmail.com:993/[Gmail]/Sent Mail"
 
 # Display the sidebar and show stats about each of the mailboxes
 set sidebar_visible
@@ -165,10 +166,10 @@ set trash = "+[Gmail]/Trash"
 
 # Configure the logins with GPG decryption for the password
 #set my_foo_pass="`gpg --quiet --for-your-eyes-only -d ~/.mutt/password.gpg`"
-#set imap_user = "gkapfham@allegheny.edu"
+#set imap_user = "vloertegel@gmail.com"
 #set imap_pass=$my_foo_pass
 #set smtp_pass=$my_foo_pass
-#set smtp_url = "smtp://gkapfham@allegheny.edu@smtp.gmail.com:587/"
+#set smtp_url = "smtp://vloertegel@smtp.gmail.com:587/"
 
 # Allow mutt to performing caching as a way to improve performance
 # NOTE: commented out as it seems to limit stability
